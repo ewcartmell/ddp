@@ -1,0 +1,33 @@
+---
+title: "DDP Final Pitch"
+output: ioslides_presentation
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## Objective
+
+The objective of this presentation is to describe an app built in Shiny that allows you to explore the MTCars dataset.  
+
+## The App
+
+The application is available at this link: https://nedcartmell.shinyapps.io/mtcars/
+
+## Data
+
+The MTCars dataset is a data frame consisting of 32 observations of 11 variables relating to performance and other characteristics of various models of cars.  You can read more about the dataset here: https://stat.ethz.ch/R-manual/R-devel/library/datasets/html/mtcars.html
+
+## Here is an example of some R code
+
+```{r cars, echo = TRUE}
+summary(mtcars$mpg)
+```
+
+## Au Revoir!
+
+```{r pressure}
+plot(mpg ~ hp, data = mtcars)
+```
+

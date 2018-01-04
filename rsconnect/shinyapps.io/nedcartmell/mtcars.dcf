@@ -1,0 +1,12 @@
+name: mtcars
+title: mtcars
+username:
+account: nedcartmell
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 252254
+bundleId: 1154175
+url: https://nedcartmell.shinyapps.io/mtcars/
+when: 1514505879.86058
+asMultiple: FALSE
+asStatic: FALSE
