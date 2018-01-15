@@ -35,7 +35,7 @@ shinyServer(function(input, output) {
         disp <= maxdisp
       )
     
-    ggvis(m, ~mpg, ~hp) %>%
+    ggvis(m,  ~hp, ~mpg) %>%
       layer_points(size := 50, size.hover := 200,
           fillOpacity := 0.5, fillOpacity.hover := 0.5, 
           fill = ~cyl)##, key := ~ID)

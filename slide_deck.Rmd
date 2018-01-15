@@ -11,9 +11,13 @@ knitr::opts_chunk$set(echo = FALSE)
 
 The objective of this presentation is to describe an app built in Shiny that allows you to explore the MTCars dataset.  
 
-## The App
+## The App & Instructions
 
 The application is available at this link: https://nedcartmell.shinyapps.io/mtcars/
+
+It plots MPG for the MTCars dataset against horsepower, while also coloring the number of cylinders in the engine.  Users can adjust the slide bars for Horsepower and Engine Displacment in order to restrict the portion of the dataset that they wish to see.  
+
+It is very simple to use - simply adjust the slider bars to represent 
 
 ## Data
 
